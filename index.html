@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fa-IR">
+	<head>
+		<meta charset="UTF-8"/>
+		<title>ورود به حساب کاربری</title>
+		<link type="text/css" rel="stylesheet" href="Design 2.css"/>
+	</head>
+	<body>
+	<div>
+			<ul align="center">
+				<li id="menu">
+					<ul id="list">
+						<a href="Home.html"><li id="home"></li></a>
+						<a href="Setting.html"><li id="setting"></li></a>
+						<a href="AboutUs.html"><li id="us"></li></a>
+					</ul>
+				</li>	
+			</ul>
+		</div>
+		<div align="center" class="main">
+		<legend id="header" dir="center">ورود به حساب کاربری</legend>
+			<form action="Server.php" method="get" >
+				نام کاربری
+				<input type="text" class="input" id="UserName" name="UserName"/>
+				رمز عبور
+				<input type="password" class="input" id="Pass" name="Pass"/>
+				<a href="Restore.html" id="forgot">فراموشی رمز عبور</a>
+				<button type="button" onclick="location.href='Server.html'" class="input" id="sub"> ثبت نام </button>
+			</form>
+		</div>
+		
+	</body>
+</html>

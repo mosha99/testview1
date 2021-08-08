@@ -1,0 +1,90 @@
+@font-face
+{
+	font-family:"Vasir";
+	src : url("Vasir.eot");
+	src : url("Vasir.woff") format("woff"),
+	url ("Vasir.otf") format("opentype"),
+	url ("Vasir.svg") format("svg")
+	
+}
+* {direction : rtl;font-family : Vasir}
+			
+	body
+	{
+		background-image : url('beautiful-background-of-lines-with-gradients-vector.jpg');
+		background-size : 100%;
+		margin : 0px;
+		font-size : 23pt;
+		width : 100%;
+		height : 100%;
+	}
+			
+	.main
+	{
+		width : 45%;
+		height : 430px;
+		margin :  10% auto ;
+		background-color : #F3F4F4;
+		box-shadow : 0px 11px 35px 2px rgba(0, 0, 0, 0.5);
+		border-radius : 80px 0px 80px 0px;
+		padding : 40px;
+		display : block;
+		overflow : hidden
+	}
+			
+	#header
+	{margin-bottom : 40px;font-size : 30pt;font-weight : 700}
+			
+	.input
+	{
+		display : block;
+		font-size : 20pt;
+		margin : 20px;
+		border-radius : 10px ;
+		border-width : 3px;
+		border-color : #7488B0
+	}
+			
+	#UserName{margin : 20px;}
+			
+	#sub{margin : 50px;font-size : 26pt;background : linear-gradient(50deg , #A2D2FF , #F7AF9D);width : 140px}
+			
+	#forgot{font-size : 18pt}
+			
+	#menu
+	{
+	width : 50px;
+	height : 70px;
+	background : url('icons.png')10px 0px ;
+	padding-left : 35px;
+	margin : -110px -20px 0px 0px;
+	position : fixed;
+	}
+			
+	ul {list-style-type:none}
+	
+	li ul {display : none}
+			
+	li:hover ul {display : block;}
+			
+	#list
+	{
+	background-color : #FFCAD4 ;
+	width : 75px;
+	height : 250px;
+	margin-top : -10px;
+	font-size : 27pt;
+	margin-right: -10px;
+	padding : 25px;
+	border-radius : 100px 100px;
+	box-shadow : 0px 11px 35px 2px rgba(0, 0, 0, 0.5);
+	}
+			
+	#home{background : url('icons.png')-75px 0px ;width : 70px;height : 70px; margin-bottom : 20px}
+	#home:hover{background : url('icons.png')-75px -80px;}
+			
+	#setting{background : url('icons.png')-150px 0px ;width : 70px;height : 70px; margin-bottom : 20px} 
+	#setting:hover{background : url('icons.png')-150px -75px;}
+			
+	#us{background : url('icons.png')-225px 0px ;width : 70px;height : 70px;}
+	#us:hover{background : url('icons.png')-225px -82px;}
